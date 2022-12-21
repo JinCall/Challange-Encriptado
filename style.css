@@ -107,6 +107,7 @@ body {
     height: 16px;
     object-fit: cover;
     display: inline-block;
+    margin-left: 35px;
 }
 
 .info p {
