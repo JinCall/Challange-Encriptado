@@ -130,6 +130,7 @@ body {
     border-style: none;
     color: #8cb04e;
     margin-right: 30px ;
+    cursor: pointer;
 }
 
 .botonencriptar img {
@@ -164,6 +165,7 @@ body {
     border-radius: 25px ;
     border: none;
     color: #5c452d;
+    cursor: pointer;
 }
 
 .botondesencriptar img {
@@ -288,6 +290,7 @@ body {
     color: #5c452d;
     visibility: hidden;
     margin-bottom: 30px;
+    cursor: pointer;
 
 }
 
