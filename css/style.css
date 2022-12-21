@@ -149,6 +149,8 @@ body {
 .botonencriptar:active {
 
     background: #5c452d;
+    transform: scale(1);
+    transition: 0.4s;
 }
 
 .botondesencriptar {
@@ -182,6 +184,8 @@ body {
 
     color: #5c452d;
     background: #8cb04e;
+    transform: scale(1);
+    transition: 0.4s;
 }
 
 .resultado {
@@ -290,6 +294,7 @@ body {
 .textoresuelto button:active{
 
     transform: scale(0.85);
+    transition: 0.4s;
 }
 
 #copiar img {
