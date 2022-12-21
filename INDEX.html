@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challange-Encriptar</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=MedievalSharp&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -22,59 +22,55 @@
         </div>
     </header>
 
-    <main>         
-                <div class="encriptador">
-                    
-                    <form class="encriptadortexto">
-                        <div class="areatexto">
+    <main>
+        <div class="caja">
+            <div class="encriptador">
+                
+                <form class="encriptadortexto">
+                    <div class="areatexto">
 
-                            <textarea name="texto" id="texto"  placeholder="Ingrese el texto aqui" ></textarea>
-                            
-                            <div class="infodetexto">
-                                <div class="info">
-                                    <img src="./imagenes/exclamation-circle.svg">
-                                    <p id="advertencia">Solo usar letras minúsculas</p>
-                                </div>
-                            </div>
-
-                            <div class="boton">
-                                <button id="encriptacion" class="botonencriptar" type="button">
-                                    <img src="./imagenes/Cadenas.png"> 
-                                    Encriptar
-                                </button>
-                                <button id="desencriptacion" class="botondesencriptar" type="button">
-                                    <img src="./imagenes/Llave.png"> 
-                                    Desencriptar
-                                </button>
-                            </div>
+                        <textarea name="texto" id="texto"  placeholder="Ingrese el texto aqui" ></textarea>
                         
+                        <div class="infodetexto">
+                            <div class="info">
+                                <img src="./imagenes/exclamation-circle.svg">
+                                <p id="advertencia">Solo usar letras minúsculas</p>
+                            </div>
                         </div>
-                    </form>
 
-                    <div class="resultado">
+                        <div class="boton">
+                            <button id="encriptacion" class="botonencriptar" type="button">
+                                <img src="./imagenes/Cadenas.png"> 
+                                Encriptar
+                            </button>
+                            <button id="desencriptacion" class="botondesencriptar" type="button">
+                                <img src="./imagenes/Llave.png"> 
+                                Desencriptar
+                            </button>
+                        </div>
+                    
+                    </div>
+                </form>
 
-                        <div class="cajaresultado">
-
-                            <div class="noresuelto" id="sinresolver">
-
-                                <div class="imagenresultado">
-
-                                    <img src="./imagenes/Shrek.png" alt="imagen de mujer buscando algo">
-                                    
-                                    <p>Ningún mensaje fue encontrado</p>
-                                    <p>Debes ingresa el texto que quieres encriptar o desencriptar.</p>
+                <div class="resultado">
+                    <div class="cajaresultado">
+                        <div class="noresuelto" id="sinresolver">
+                            <div class="imagenresultado">
+                                <img src="./imagenes/Shrek.png" alt="imagen de Shrek">
                                 </div>
-
-                                <div class="textoresuelto" id = "resuelto">
-                                    <textarea name="resultadodetexto" id="solucion" disabled></textarea>
-                                    <button id="copiar" type="button"><img src="./imagenes/Pergamino.png"> Copiar</button>
+                                <p>Ningún mensaje fue encontrado</p>
+                                <p>Debes ingresa el texto que quieres encriptar o desencriptar.</p>
                                 </div>
+                            <div class="textoresuelto" id = "resuelto">
+                                <textarea name="resultadodetexto" id="solucion" disabled></textarea>
+                                <button id="copiar" type="button"><img src="./imagenes/Pergamino.png"> Copiar</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
 
-    <script src="encriptado.js"></script>
+    <script src="./java/encriptado.js"></script>
 </body>
 </html>

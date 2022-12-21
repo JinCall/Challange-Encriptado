@@ -1,11 +1,12 @@
 const botonEncrip = document.querySelector("#encriptacion");
 const botonDsncrip = document.querySelector("#desencriptacion");
 const botonCpr = document.querySelector("#copiar");
+
 const textoRsltd = document.querySelector("#solucion");
 const textoIngrs = document.querySelector("#texto");
 
-function encriptar () {
 
+function encriptar () {
   let texto = textoIngrs.value.toLowerCase();
   let textoEncrip = texto
 
