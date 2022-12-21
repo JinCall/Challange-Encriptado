@@ -1,7 +1,7 @@
 body {
 
-    font-family: 'MedievalSharp', cursive;
-    background: #e1dfb6;
+    font-family: 'Source Code Pro', monospace;
+    background: #e4e9f0;
     font-weight: 400;
 }
 
@@ -13,24 +13,23 @@ body {
     margin: auto;
 }
 
-.titulo {
-    
-    font-family: 'MedievalSharp', cursive;
-    font-size: 45px;
-    color: #000000;
-    position: absolute;
-    height: 48px;
-    left: 175px;
-    top: 75px;
-}
-
 .logo {
 
-    width: 150px;
     position: absolute;
-    height: 158px;
-    left: 20px;
-    top: 10px;
+    height: 88px;
+    left: 50px;
+    top: 30px;
+}
+
+.titulo {
+
+    color: #0A3871;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    position: absolute;
+    height: 48px;
+    left: 125px;
+    top: 55px;
 }
 
 .encriptador {
@@ -58,18 +57,17 @@ body {
 
 #texto {
 
-    font-family: 'MedievalSharp', cursive;
     flex-basis: 100%;
     margin-top: 168px;
     margin-left: 50px;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 48px;
-    color:#5c452d;
+    color:#0A3871;
     background-color: transparent;
     resize: none;
     border: none;
-    padding-left: 75px;
 }
+
 
 #texto:focus {
 
@@ -78,7 +76,7 @@ body {
 
 #texto::-webkit-input-placeholder {
 
-    color: #5c452d;
+    color: #0A3871;
 }
 
 .infodetexto {
@@ -101,14 +99,13 @@ body {
     height: 16px;
     object-fit: cover;
     display: inline-block;
-    margin-left: 10px;
 }
 
 .info p {
 
     margin-left: 8px;
     display: inline-block;
-    color: #000000;
+    color: #3d3d3d;
 }
 
 .boton {
@@ -120,55 +117,48 @@ body {
 
 .botonencriptar {
 
-    font-family: 'MedievalSharp', cursive;
-    font-size: 30px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     position: relative;
     width: 40%;
-    background: #5c452d;
+    background: #0A3871;
     border-radius: 25px ;
-    border-style: none;
-    color: #8cb04e;
-    margin-right: 30px ;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
 }
-
 .botonencriptar img {
 
-    position:  relative;
-    width: 40px;
-    height: 30px;
+    position: relative;
+    width: 20px;
     top: 0px;
 }
-
 .botonencriptar:hover {
 
     transform: scale(1.1);
     transition: 0.4s;
 }
-
 .botonencriptar:active {
 
-    background: #5c452d;
+    background: #041121;
 }
-
 .botondesencriptar {
 
-    font-family: 'MedievalSharp', cursive;
-    font-size: 30px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     position: relative;
+    margin-left: 30px;
     width: 40%;
-    background: #8cb04e;
+    background: #FFFFFF;
     border-radius: 25px ;
-    border: none;
-    color: #5c452d;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
 }
-
 .botondesencriptar img {
 
     position: relative;
-    width: 40px;
-    height: 30px;
+    width: 20px;
     top: 0px;
 }
 
@@ -177,13 +167,11 @@ body {
     transform: scale(1.1);
     transition: 0.4s;
 }
-
 .botondesencriptar:active {
 
-    color: #5c452d;
-    background: #8cb04e;
+    color: #FFFFFF;
+    background: #041121;
 }
-
 .resultado {
 
     height: 730px;
@@ -197,14 +185,15 @@ body {
     width: 90%;
     min-width: 300px;
     height: 100%;
-    background: #8cb04e;
+    background: #FFFFFF;
     position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
-}
+    font-family: 'Source Code Pro', monospace;
+ }
 
  .imagenresultado {
 
@@ -222,6 +211,7 @@ body {
     filter: saturate(70%);
 }
 
+
 .textoresuelto {
 
     display: flex;
@@ -231,20 +221,13 @@ body {
     align-items: center;
 }
 
-#solucion {
-
-    color: #e1dfb6;
-    font-family: 'MedievalSharp', cursive;
-    font-size: 18px;
-}
-
 .cajaresultado p:nth-child(2) {
 
     text-align: center;
     font-size: 32px;
     font-style: normal;
-    font-family: 'MedievalSharp', cursive;
-    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
     padding-bottom: 35px;
 }
 
@@ -252,7 +235,7 @@ body {
 
     text-align: center;
     font-size: 16px;
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
 }
 
@@ -266,24 +249,24 @@ body {
     resize: none;
     border: none;
     background: transparent;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .textoresuelto button {
 
-    font-family: 'MedievalSharp', cursive;
-    font-size: 30px;
     position: absolute;
     bottom: 50px;
     padding: 20px;
     position: relative;
     top: 90px;
     width: 60%;
-    background: #e1dfb6;
+    background: #FFFFFF;
     border-radius: 25px ;
-    border: none;
-    color: #5c452d;
+    border: 1px solid #0A3871;
+    color: #0A3871;
     visibility: hidden;
     margin-bottom: 30px;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -295,33 +278,20 @@ body {
 #copiar img {
 
     position: relative;
-    width: 40px;
-    height: 30px;
+    width: 20px;
     top: 2px; 
     right: 10px;
 }
 
 @media screen and (max-width: 860px) {
-
+    
     .encriptador {
         margin: 0;
     }
 
     .areatexto{
         height: 700px;
-        padding-bottom: 30px;
     }
-
-    #encriptacion {
-        position: relative;
-        padding: 20px 75px 20px 20px;
-    }
-
-    #desencriptacion {
-        position: relative;
-        padding: 20px 75px 20px 20px;
-    }
-
     .info p {
         font-size: 12px;
     }
@@ -333,14 +303,13 @@ body {
 
     .textoresuelto button {
         top: 0px;
-        padding-bottom:50px ;
     }
 }
 
 @media screen and (max-width:600px) {
 
     #texto {
-        font-size: 30px;
+        font-size: 25px;
     }
     .boton {
         display: flex;
@@ -349,7 +318,6 @@ body {
     }
     .botonencriptar {
         width: 80%;
-        margin-left: 35px;
         margin-bottom: 15px;
     }
     .botondesencriptar {
