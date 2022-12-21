@@ -68,12 +68,13 @@ body {
     flex-basis: 100%;
     margin-top: 168px;
     margin-left: 50px;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 48px;
     color:#5c452d;
     background-color: transparent;
     resize: none;
     border: none;
+    padding-left: 75px;
 }
 
 #texto:focus {
